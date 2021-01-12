@@ -36,3 +36,20 @@ d) Hyperbolic Tangent (tanh): Similar to sigmoid. It goes below from 0 to -1. Th
 
 
 Combination - Rectifier used in Hidden Layer and Sigmoid used at the output layer for predicting probability 
+
+How do Neural Networks Work:
+
+Taking an example for House price prediction
+
+Parameters (Input): Area, Bedrooms, Distance to City, Age act as the input layer 
+
+Output Layer (Price): Price that is being predicted
+Price would look like = w1*x1 + w2*x2 + ... +wm*xm
+
+Increase in accuracy comes from the hidden layer. 
+
+Some weights might have zero values since input may not be important. First neuron will concentrate on Area and Distance to city
+Another neuron will concentrate on Area, Bedrooms and Age Parameters. Three parameters are converted to a brand new parameter to be more precise.
+Anothe neuron might have picked up just one parameter that is age. 
+Another neuron might have picked up Bedroom and distance parameter
+Another might have picked up combination of all parameters
