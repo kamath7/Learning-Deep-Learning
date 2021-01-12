@@ -1,0 +1,29 @@
+Components in ANN:
+
+Neuron:
+
+Body of the Neuron
+Dendrites
+Axon
+
+Neuron on it's own is not that strong. Lots of neuron work together to create magic
+
+Dendrites receive signal. Connected to axon of other neuron
+Axon transmit signal. Connected to dendrite of another neuron
+
+Synapses - Where the signal is passed between two neurons
+
+Neuron gets input signal and has an output signal 
+Input signals are represented by other neurons 
+
+Input layer - Is senses in the human body. Feel, smell, see, hear.
+
+Input layer passes signal/data through synpase to the hidden layer neuron. Input values are independent variable1. These input values are for one row say in a database. These variables need to be standardised or be normalised
+
+Output value can be continous (price), binary (will exit yes/no) or categorical. Output value will also be for the same observation
+
+Synapses are assigned weights. Weights are crucial for functioning. Weights are how NNs learn by adjusting weights to understand what signal is important or not. E.g. Gradient Descent and Backpropogation
+
+Inside the hidden neuron layer - A weighted sum of the input values * weight is done. An activation function is applied. From that the neuron understands if a signal is to be passed or not. 
+
+
