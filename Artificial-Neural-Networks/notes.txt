@@ -27,3 +27,12 @@ Synapses are assigned weights. Weights are crucial for functioning. Weights are 
 Inside the hidden neuron layer - A weighted sum of the input values * weight is done. An activation function is applied. From that the neuron understands if a signal is to be passed or not. 
 
 
+The Activation Function:
+
+4 different types of activation function (predominant ones): a) Threshold function: Simple function. If value < 0 then the threshold function passes 0 else passes 1
+b) Sigmoid Function: There's a formula. 1/(1+e^-x). Used in logistic regression. Much smoother than threshold function. Gradual progression. Used for predicting probabilities. Also between 0 and 1
+c) Rectifier Function: Popular for ANN. Goes from 0 to 1. 
+d) Hyperbolic Tangent (tanh): Similar to sigmoid. It goes below from 0 to -1. There's a formula for the hyperbolic tangent. 
+
+
+Combination - Rectifier used in Hidden Layer and Sigmoid used at the output layer for predicting probability 
