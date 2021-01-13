@@ -70,3 +70,23 @@ Gradient Descent -
  Curse of Dimensionality - We cannot brute force weights since it will take a long time and costs.
 
 A point is taken on the curve. Slope is drawn. Check if the slope is downward or upward. Points are taken until there is no more downward or upward slope. Also called Descent because you are looking for the lower cost function
+
+Stochastic Gradient Descent:
+
+This method doesn't requires the cost function to be convex(curve) like the gradient descent i.e. it has one global minimum. 
+
+The rows are taken one by one and the weights are adjusted. Rows are taken one after another. Gradient descent is batch wise and Stochastic is row wise
+Stochastic helps in avoiding local minimums instead of global minimum
+
+Backpropogation:
+
+Advanced algorithm. which allows to adjust weights backwards simultaneously
+
+ANN Steps with Stochastic Gradient descent
+
+STEP1 : Randomly initialise weights to small numbers close to 0 
+STEP2: Input first observation of your dataset in the input layer, each feature in one input code 
+STEP3: Forward propogation - Neurons activated in a way that impact of each neurons activation is limited by the weights. Propagate till activations until getting predicted result y
+STEP4: Compare predicted result to actual result. Measure generated error 
+STEP5: Back propagation: from right to left. Error back propagated. Update weights according to how much they are responsible for the rror. Learning rate decides how much we should update weights
+STEP6: Repeat 1 to 5 and update weights after each observation. Or repeat step1 to 5 but update weights only after a batch of observations
