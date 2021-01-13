@@ -53,3 +53,20 @@ Another neuron will concentrate on Area, Bedrooms and Age Parameters. Three para
 Anothe neuron might have picked up just one parameter that is age. 
 Another neuron might have picked up Bedroom and distance parameter
 Another might have picked up combination of all parameters
+
+How do Neural Networks learn :
+
+Goal is to create a network which learns on it own. 
+
+Perceptron was invented by Frank. Something that learns and adjusts itself
+Cost function tells what the error is in the prediction. The lower the cost function the better
+A perceptron/Neural Network learns by adjusting weights of the input vals once the cost function is implemented to reduce the cost function
+
+One Epoch is when we go through a whole dataset and train the neural network on all the rows. All the rows share the same weight during an Epoch
+To adjust weights again, we go back again. Process is called Backpropogation
+
+Gradient Descent - 
+ A chart of cost function values is taken. It looks like a descent. The best would be the one with the least value
+ Curse of Dimensionality - We cannot brute force weights since it will take a long time and costs.
+
+A point is taken on the curve. Slope is drawn. Check if the slope is downward or upward. Points are taken until there is no more downward or upward slope. Also called Descent because you are looking for the lower cost function
