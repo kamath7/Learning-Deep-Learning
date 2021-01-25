@@ -1,0 +1,21 @@
+CNN (Not the shitty news network) - Plan of  Attack
+
+What is CNN - 
+Brain looks at features and classifies it accordingly
+Yann Le Cunn father of CNN
+
+High Level CNN Overview - 
+Input Image -> CNN -> Output Image class 
+
+Take B&w image and COlor Image of 2 * 2 pixels 
+
+Neural Networks takes the B&W image as a 2D array. Each of the pixel has a value between 0 and 255 (Intensity of color)
+The Color Image is a 3D Layer (R, G and B Layer). Each pixel again has a value between 0 and 255
+
+Image can be represented in a table manner where 0 would be black and 1 would be white. 
+
+Steps followed
+a) Convolution
+b) Max Pooling
+c) Flattening
+d) Full Connection
