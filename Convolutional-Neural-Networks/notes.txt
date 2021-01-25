@@ -19,3 +19,30 @@ a) Convolution
 b) Max Pooling
 c) Flattening
 d) Full Connection
+
+
+Convolution  -
+
+There's a formula for convolution which has integrals. 
+
+Taking an input image in a format fo a matrix and feature detector which is of 3*3 matrix (need not be 3*3 can be 7*7). Feature detector can also be called Kernel or Filter
+Convolution operation denoted by x in a circle. The feature detector is applied on the image from the top left corner. Each value is then multiplied. (0,1) * (0,1) and then the results are added up and filled into the feature map
+
+Input Image * Filter = Feature Map
+
+
+Moving the filter is called stride. Stride or movement can be changed from 1 or 2. Convention used is 2.
+We lose some information when applying stride. But feature detector role is to detect features similar. Highest number when feature matches up.
+
+Feature map helps in removing unecessary things and focuses on important features. 
+
+Multiple feature maps are created since different filters are used. Through training it is decided what features are important. 
+Multiple feature maps -> Convolution Matrix 
+One filter - Can sharpen the image 
+One filter might be to increase contrast
+Another filter might be to blur the image
+
+RELU Layer -
+Upon the convolution layer, the Rectified Linear Unit(RELU) is applied 
+Images are highly non linear. Images have lot of non linear elements due to different pixels.  mathematical operations such as convolution is applied. Relu removes all black/white from a black/white image 
+
