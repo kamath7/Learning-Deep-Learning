@@ -67,3 +67,18 @@ Pooled Feature map is flattened into a column. Reason is we need to input this i
 
 Input Image -> Convolutional Layer -> Pooling Layer -> Flattening (Input Layer of a future ANN)
 
+Full connection - 
+
+Hidden layers are fully connected layers in CNN.
+Combine features into attributes which helps in predicting classes even more
+Loss function (Cost FUnction is ANN) .
+
+Error is calculated and back propogated. Some things such as weights are adjusted to get better output and also the feature detectors are adjusted to get better results.
+
+We need to understand what weights need to be added for predicting a particular class say dog.
+Feature neuron saying floppy ears detected and feature neuron saying round nose may fire up saying it's a dog. The cat neuron meanwhile would know to ignore the neuron indicating it's a cat.
+The cat neuron would be listening to the neuron which matches its expectations.
+If a feature is useless it is discarded and replaced with a feature that is more important by the cat/dog neuron 
+The neurons learn as to what features they need to listen to. 
+The cat and dog neurons vote for the important features and who to listen to 
+
