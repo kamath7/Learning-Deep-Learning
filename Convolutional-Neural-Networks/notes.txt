@@ -46,3 +46,24 @@ RELU Layer -
 Upon the convolution layer, the Rectified Linear Unit(RELU) is applied 
 Images are highly non linear. Images have lot of non linear elements due to different pixels.  mathematical operations such as convolution is applied. Relu removes all black/white from a black/white image 
 
+
+Max Pooling - 
+
+Spatial Invariance - Neural network doesn't care if the features are a bit tilted, closer or further apart. 
+
+After applying convolution, we get feature map upon which max pooling is applied to get a pooled feature map. 
+A 2*2 matrix is placed on the top corner and select the max value from the feature map. Take a stride of 2 and move and repeat the process to get the max values .
+Max pooling gets rid of the unimportant things. We also account for any distortion.We keep features and account for distortion and also reduce the size. Benefit of pooling also includes reducing parameters and hence avoiding overfitting. 
+
+Different types of pooling - Min max pooling, max pooling
+
+Input Image -> Convolution (Feature map obtained)-> Pooling (Pooling layer)
+
+https://www.cs.ryerson.ca/~aharley/vis/conv/
+
+Flattening - 
+
+Pooled Feature map is flattened into a column. Reason is we need to input this into an ANN. IT would act as the input layer  of a future ANN
+
+Input Image -> Convolutional Layer -> Pooling Layer -> Flattening (Input Layer of a future ANN)
+
