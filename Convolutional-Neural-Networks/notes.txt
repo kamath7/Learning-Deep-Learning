@@ -82,3 +82,20 @@ If a feature is useless it is discarded and replaced with a feature that is more
 The neurons learn as to what features they need to listen to. 
 The cat and dog neurons vote for the important features and who to listen to 
 
+Summary of CNN - 
+
+Input Image -> (Convolution applied along with RELu) Convolutional Layer -> (Pooling Applied) Pooling Layer -> Flattening -> Passing to ANN -> Output
+
+Sfotmax & Cross-Entropy
+
+How do the endpoints (dog & cat) know they add up to 1. In ANN they wouldn't. The Softmax function helps in identifying it.
+Dog and Cat need not add up to 1. Softmax enables this. 
+Softmax - Normalized cost Function 
+
+Cross Entropy - Formula present Summation P(x) log q(x)
+Cross entropy function is loss function in CNN.
+Loss function is something we want to minimize to get a better performance 
+
+Functions that can measure performance - 
+Classification Error, Mean Squared Error, Cross-Entropy
+Cross entropy gets the NN to the optimal state. Only works for classification problem. 
