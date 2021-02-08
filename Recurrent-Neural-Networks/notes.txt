@@ -28,4 +28,27 @@ Many to many output - Grammar translations in translation software (Short term i
 Many to Many also has subtitles in a movie. 
 Sunspring written by RNN
 
+
+Vanishing Gradient Problem
+
+Sepp Hochreiter identified the deep learning problem 
+Yoshua Bengio also identified the problem 
+
+Each layer calculates the cost function which gives the output during the training. Throughout the time series this value will exist. 
+Recurring weight used to connect the hidden layer in the temporal loop 
+Multiplying the same weight for multiple layers. 
+When multiplying by something small, it's a problem.
+Weights are assigned at the start of the neural network. 
+The more the multiplication, smaller the value. AS we backpropogate the gradient becomes lesser and lesser. 
+The lower the gradient, harder for the Weights to be updated and it is slower.  For the first neuron the gradient would be very low which would break down the network and would give a wrong output
+Wrec- Recurring weights in the temporal loop
+If Wrec is small -> Vanishing gradient. If Wrec is large -> Exploding. 
+
+solutions
+a) Exploding Gradient - Truncated Backpropagation, Penalities (Gradient penalties), Gradient Clipping (Setting Gradient threshold)
+b) Vanishing Gradient - Weight initialisation, Echo State Networks, Long Short Term Memory Networks(LSTMs)(Go to network for RNN) 
+
+
+
+
 Documentation to refer to - karpathy.github.io
