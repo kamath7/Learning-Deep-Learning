@@ -1,0 +1,31 @@
+Recurrent Neural Networks - RNN 
+
+Supervised Learning - Artificial Neural Networks (Used for Regression and classification )
+Convolutional Neural Network (COmputer vision)
+Recurrent Neural Network (Time Series Analysis)
+
+Unsupervised Learning 
+Self Organising Maps (Feature Detection)
+Deep Boltzmann Machines (Recommendation Systems)
+Auto Encoders (Recommendation Systems)
+
+Human brain - cerebrum, cerebellum ,brainstem
+
+Cerebrum - Frontal Lobe, Pareital Lobe, Occipital Lobe, Temporal Lobe
+Weights are long term memory of ANN. Which is what the Temporal lobe in the brain does. Temporal lobe responsible for long term memory
+
+CNN - Occipital Lobe 
+RNN - Short term memory. What happened in the previous terms and what is going to happen. Frontal lobe in the brain.
+
+For RNN the neurons still exist. 
+The hidden layer has a temporal loop. The hidden layer feeds back into itself 
+
+The next network remembers the previous calculations.
+
+One to many output - Black and white dog jumps over bar (Computer Image fed into a RNN )
+Many to one output - Sentiment analysis (Analysing a positive/negative comment)
+Many to many output - Grammar translations in translation software (Short term info about the previous word for the next word)
+Many to Many also has subtitles in a movie. 
+Sunspring written by RNN
+
+Documentation to refer to - karpathy.github.io
