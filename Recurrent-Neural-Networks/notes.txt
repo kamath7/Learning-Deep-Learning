@@ -49,6 +49,29 @@ a) Exploding Gradient - Truncated Backpropagation, Penalities (Gradient penaltie
 b) Vanishing Gradient - Weight initialisation, Echo State Networks, Long Short Term Memory Networks(LSTMs)(Go to network for RNN) 
 
 
+Long Short Term Memory 
+
+if wrec is less than 1 it is vanishing gradient. if wrec greater than 1 is exploding. 
+In LSTMs wrec is set to 1. 
+
+LSTMs have a memory cell which goes through time freely. While backpropogating, the problem of vanishing gradient goes away 
+
+LSTM takes three inputs and gives two outputs. 
+All of the inputs/outputs are vectors/layers.
+F- Forget Valve. responsible Close/open 
+V -  Memory Valve. Sigmoid activation function used  
+O - Output Value
+
+Neural Network Layer - 
+
+
+Valves extract information from the input 
+
+LSTM Variations
+
+a) Peepholes present - Connecting activationfunctions . Additional info given 
+b) GRU - Gets rid of memory pipeline. Use the output pipeline
 
 
 Documentation to refer to - karpathy.github.io
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/
