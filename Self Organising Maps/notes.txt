@@ -1,0 +1,22 @@
+Self Organising Maps
+
+Self Organising Maps are used for feature detection and fall under Unsupervised Version
+
+Teuvo Kohonen - Person who created SOM
+
+Used to reduce dimensions
+
+A multi dimensional dataset is taken and the dimensionality is reduced. A map is produced. Used to reduce the amount of columns
+
+K-Means which does clustering would aid in Self Organising Maps 
+
+K-Means clustering - 
+Dataset plotted would undergo the K-Means algorithm giving us clustered 
+
+Step1 - The number of clusters 'k' is chosen 
+Step2 - Select at random K point, which are the centroids from the cluster 
+Step3 - Assign each data point to the closest centroid that forms K clusters 
+Step4 - Compute and place the new centroid of each cluster 
+Step5 - Reassign each data point to the closest centroid. if any reassignent took place, go to step 4 otherwise finish
+
+For assigning data point - euclidean distance is something that can be used 
