@@ -20,3 +20,24 @@ Step4 - Compute and place the new centroid of each cluster
 Step5 - Reassign each data point to the closest centroid. if any reassignent took place, go to step 4 otherwise finish
 
 For assigning data point - euclidean distance is something that can be used 
+
+How do SOMs learn- 
+Weights in SOMs are different than the weights in ANN. 
+In SOMs no activation functions. Weights are a characteristic of the node itself. 
+
+A comparison is done with the node and the dataset. The closest one to the original input space is found out. 
+To find out the euclidean distance is taken with the input and the node. The least distance is the closest
+SOMs will update the weights for the best unit so that it is even more closer to the input meaning the SOM is coming closer to that data point
+The radius from the closest point will have all the corresponding weights updated.
+The next one is calculated and the steps are created and then clusters are created by seeing which other weight is closer and corresponsding color is added
+Best Matching Unit - BMU
+Each BMU is calculated and the radius around them is taken
+In the next iteration after assigning all the closest colors, the radius sinks 
+The radius keeps sinking
+
+SOm Features
+SOMs retain topology of the input set 
+SOMs reveal correlations that are not easily identified
+SOMs classify data without supervision
+No target vector -> No backpropagation
+No lateral connections between output nodes
