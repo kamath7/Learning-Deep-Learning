@@ -41,3 +41,20 @@ SOMs reveal correlations that are not easily identified
 SOMs classify data without supervision
 No target vector -> No backpropagation
 No lateral connections between output nodes
+
+K Means - Random Initialisation Trap
+Taking an example
+a) Trying to build 3 clusters 
+b) Random K points, the centroids are selected
+c) Step 4 and 5 from creating the clusters 
+
+The actual and the one produced are different.
+The solution to avoid these would be to use the K means ++ algorithm
+
+K Means Intuition - Choosing the right number of clusters 
+
+Choosing the right number of clusters 
+
+WCSS = sum for each cluster and distance calculated
+If there are as many clusters as data points, WCSS would equate to 0 
+Elbow method used to determine the right number of clusters. The drop indicates the optimal number of clusters 
