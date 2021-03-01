@@ -1,0 +1,7 @@
+Boltzmann Machines used for Recommendation Systems and fall under Unsupervised Learning
+
+Boltzmann machines have hidden nodes (hidden layer) and visible nodes (input layer).
+No output layer present. Everything is just connected to each other and there are no connections. They are bidirectional
+
+Boltzmann machines different from other algorithms. They don't just expect input data but rather generate data. For Boltzmann machines all nodes are same (hidden and input). The entire boltzmann machine is a system and it generates a state
+The BMs learn from the feeding data after which it learns on it own after seeing it. 
