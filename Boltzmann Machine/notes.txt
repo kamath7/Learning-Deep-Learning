@@ -10,3 +10,26 @@ Energy Based Models -
 Boltzmann distribution talks about probability. There is a formula
 The higher the energy of a certain state lower the probability. 
 
+Restricted Boltzmann Machines
+
+Example taken is for Movies Recommendation
+6 movies taken. Boltzmann machine trained. Boltzmann machine learns to assign it's nodes 
+Input Nodes - Movies 
+Hidden Nodes identify important features such as Genre A, Genre B, Actor X. 
+RBMs understands the features common and identifies it as important 
+
+Ex - Drama, Action, Dicaprio, Oscar, Tarantino - Important features  identified 
+
+Contrastive divergence 
+
+Undirected network and weights need to be updated
+Gibbs network is used. 
+Energy Curve - Weights determine the energy curve
+
+Deep Belief Network 
+
+Stacking RBMs on top of each other. Hidden layer of RBM1 will be ip of RBM2 and so on. 
+
+Deep Boltzmann Machines
+
+Main difference between DBN and DBM is the DBM is not deprived of the connectivity 
