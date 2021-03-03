@@ -33,3 +33,5 @@ Stacking RBMs on top of each other. Hidden layer of RBM1 will be ip of RBM2 and 
 Deep Boltzmann Machines
 
 Main difference between DBN and DBM is the DBM is not deprived of the connectivity 
+
+Markov Chains - Learn
