@@ -1,0 +1,7 @@
+Autoencoder
+Used for recommendation systems. Unsupervised learning
+
+Parts of AE - Visible Input Nodes -> Encoding -> Hidden Nodes -> Decoding -> Visible Output Nodes 
+Outputs are identical to the input 
+
+Biases - In the activation function, weights * x + b(bias)
