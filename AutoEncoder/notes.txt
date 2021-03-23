@@ -19,3 +19,15 @@ f) Step 6 - Back propogation - right to left error is back propogated, weights a
  Overcomplete Hidden Layers - Hidden layer greater than the input layer to extract more features 
 
  Sparse Autoencoders - . A sparse autoencoder is simply an autoencoder whose training criterion involves a sparsity penalty
+
+Denoising Autoencoders
+Input layer is moved and replaced with a modified layer. Randomly some of the layers are turned to 0
+
+Contactive Autoencoders
+Values are just copied from one layer to another layer without learning features. CAE leverages the training. A penalty is added in the loss function and it specifically doesn't allow AE to copy values. 
+
+Stacked Autoencoder
+Stacked AE - another hidden layer added to the AE. Two stages of Encoding added. Results may supercede DBN (Deep Belief Networks)
+
+Deep AutoEncoder 
+Stacked AE are not same Deep AE. Deep AE are similar to Stacked RBM.
