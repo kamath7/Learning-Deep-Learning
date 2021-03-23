@@ -5,3 +5,17 @@ Parts of AE - Visible Input Nodes -> Encoding -> Hidden Nodes -> Decoding -> Vis
 Outputs are identical to the input 
 
 Biases - In the activation function, weights * x + b(bias)
+
+Training an Autoencoder
+
+a) Step 1 - Start with array where lines(observations) correspond to users and columns(features) correspond to movies. Each cell(u,i) contains rating from 1 to 5 or 0 if no rating of the movie i by user u 
+b) Step 2 - First user goes into network. Input vector x = (r1,r2,....,rm) contains all rating for all movies 
+c) Step 3 - Input vector x is encoded into vector z of lower dimensions by mapping function f (e.g. sigmoid func)
+z = f(Wx+b) where W is vector of inpit weights and b the bias 
+d) Step 4: Z is then decoded into op vector y of same dimensions as x aiming to replicate the inp vector x 
+e) Step 5 - Reconstruction error d(x,y) = ||x-y|| is computed. Goal -> minimise it 
+f) Step 6 - Back propogation - right to left error is back propogated, weights are updated according to how much they are responsible for error. LEarning rate decides by how much we update weights 
+ 
+ Overcomplete Hidden Layers - Hidden layer greater than the input layer to extract more features 
+
+ Sparse Autoencoders - . A sparse autoencoder is simply an autoencoder whose training criterion involves a sparsity penalty
