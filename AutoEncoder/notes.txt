@@ -31,3 +31,5 @@ Stacked AE - another hidden layer added to the AE. Two stages of Encoding added.
 
 Deep AutoEncoder 
 Stacked AE are not same Deep AE. Deep AE are similar to Stacked RBM.
+
+Training and testing the SAE
