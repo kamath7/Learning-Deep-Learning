@@ -1,0 +1,16 @@
+Simple Linear Regression
+
+y = b0 + b1 *x1
+
+y -> Dependent Variable 
+x1 -> Independent Variable 
+b1 -> Coefficient. How unit change in x1 changes y
+b0 ->  Constant
+
+Salary vs Experience
+
+SLR -> Salary = b0 + b1 * experience 
+
+How to find the best fitting line for you
+
+Ordinary least squares method
