@@ -14,3 +14,13 @@ SLR -> Salary = b0 + b1 * experience
 How to find the best fitting line for you
 
 Ordinary least squares method
+
+Multiple Linear Regression
+
+y = b0 + b1*x1 + b2* x2+ ...  + bn *xn
+
+
+Logistic Regression
+
+Action & Age -> Corelation to suggest whether action is taken based on age. Predicting a probability whether the action is taken 
+
